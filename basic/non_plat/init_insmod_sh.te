@@ -15,3 +15,8 @@ allow init_insmod_sh proc_modules:file r_file_perms;
 # Date : WK20.46
 # Purpose : Set the vendor.all.modules.ready property
 set_prop(init_insmod_sh, vendor_mtk_device_prop)
+
+allow init_insmod_sh self:capability sys_nice;
+allow init_insmod_sh kernel:process setsched;
+allow init_insmod_sh debugfs_bootreceiver_tracing:dir search;
+allow init_insmod_sh proc_bootprof:file rw_file_perms;

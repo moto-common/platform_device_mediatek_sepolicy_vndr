@@ -991,3 +991,7 @@
 
 # Memtrack
 /(vendor|system/vendor)/bin/hw/android\.hardware\.memtrack-service\.mediatek-mali         u:object_r:hal_memtrack_default_exec:s0
+
+# irq
+/vendor/bin/rebalance_interrupts-vendor           u:object_r:rebalance_interrupts_vendor_exec:s0
+

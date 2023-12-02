@@ -381,3 +381,6 @@ allow mtk_hal_camera hf_manager_device:chr_file rw_file_perms_no_map;
 # Data : 2021/10/27
 # Purpose : DBReleasePlan
 allowxperm mtk_hal_camera vendor_bin_crossbuild_file:file ioctl VT_SENDSIG;
+
+r_dir_file(mtk_hal_camera, persist_data_file)
+

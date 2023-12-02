@@ -351,6 +351,8 @@ vendor.mtk.factory.start u:object_r:vendor_mtk_factory_start_prop:s0
 #=============mtk loading module property====================
 vendor.all.modules.ready u:object_r:vendor_mtk_device_prop:s0
 
+vendor.all.devices.ready u:object_r:vendor_mtk_device_prop:s0
+
 #=============mtk wifi driver log property====================
 ro.vendor.wlan.standalone.log u:object_r:vendor_mtk_default_prop:s0
 
