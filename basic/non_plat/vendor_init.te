@@ -165,3 +165,9 @@ set_prop(vendor_init, vendor_mtk_xfrm_support_prop)
 
 # Power
 set_prop(vendor_init, vendor_power_prop)
+
+# Misc
+set_prop(vendor_init, vendor_mtk_pq_prop)
+set_prop(vendor_init, vendor_mtk_vendor_vt_prop)
+set_prop(vendor_init, vendor_mtk_c2_log_prop)
+set_prop(vendor_init, vendor_mtk_audio_prop)
