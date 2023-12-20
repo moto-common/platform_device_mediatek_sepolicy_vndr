@@ -14,6 +14,7 @@
 /system/bin/thermald u:object_r:thermald_exec:s0
 
 # MTK VTService
+/system_ext/bin/vtservice u:object_r:vtservice_exec:s0
 /system/bin/vtservice u:object_r:vtservice_exec:s0
 
 # MTK ATCI
