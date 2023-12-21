@@ -73,10 +73,6 @@ allow thermal_core proc_gpufreqv2:dir search;
 allow thermal_core sysfs_charger_cooler:file r_file_perms;
 allow thermal_core sysfs_charger_cooler:dir search;
 
-#for sysfs leds
-allow thermal_core sysfs_leds:file r_file_perms;
-allow thermal_core sysfs_leds:dir search;
-
 # To read modem boot status
 allow thermal_core sysfs_ccci:dir search;
 allow thermal_core sysfs_ccci:file r_file_perms;
