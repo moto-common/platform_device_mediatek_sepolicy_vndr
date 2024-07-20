@@ -62,6 +62,7 @@ persist.vendor.mtk_usp_switch_mode u:object_r:vendor_mtk_cxp_vendor_prop:s0
 
 # vt operator property
 persist.vendor.vt. u:object_r:vendor_mtk_vendor_vt_prop:s0
+ro.vendor.vt. u:object_r:vendor_mtk_vendor_vt_prop:s0
 vendor.vt. u:object_r:vendor_mtk_vendor_vt_prop:s0
 
 
